@@ -1,0 +1,114 @@
+header{
+  outline: 1px solid blue;
+  display: block;
+}
+.space_of_searh{
+ width: 69%;
+ display: inline-block;
+ background-color: #E8E8E8;
+ border-radius: 5px;
+}
+.section_space_to_write{
+  outline: 1px solid brown;
+  display: inline-block;
+  width: 86%;
+}
+.container_icon_search{
+  outline: 1px solid purple;
+  display: inline-block;
+  padding: 3px;
+  padding-left: 10px;
+}
+.write_here{
+  outline: 1px solid pink;
+  display: inline-block;
+  width: 94%;
+  color: #383636;
+  font-family: 'Bree Serif', serif;
+  font-size: 18px;
+}
+.section_all_the_pines{
+  outline: 1px solid yellow;
+  display: inline-block;
+}
+.text_all_the_pines{
+  outline: 1px solid blue;
+  display: inline-block;
+  color: #383636;
+  font-family: 'Bree Serif', serif;
+  font-size: 18px;
+}
+.container_icon_below{
+  outline: 1px solid gray;
+  display:inline-block;
+
+}
+.option_header{
+  outline: 1px solid orange;
+  display: inline-block;
+  margin: 5px;
+  vertical-align: middle;
+  padding: 10px;
+}
+.option_search{
+  outline: 1px solid red;
+}
+.icon_of_pinterest{
+  font-size: 30px;
+  color: #c8232c;
+  border-radius: 100px;
+}
+.icon_options{
+  font-size: 23px;
+  color: #B2B2B2;
+  border-radius: 100px;
+}
+.icon_for_section_search{
+  font-size: 20px;
+  color: #B2B2B2;
+}
+.container_user{
+  display: inline-block;
+}
+.img_user{
+  width:30px;
+  height:30px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.initiation{
+  display: inline-block;
+  vertical-align: middle;
+  font-family: 'Bree Serif', serif;
+  font-size: 18px;
+  padding: 13px;
+}
+.name_user{
+  display: inline-block;
+  vertical-align: middle;
+  font-family: 'Bree Serif', serif;
+  font-size: 18px;
+}
+.container_icon_below{
+  vertical-align: middle;
+  color: #383636;
+}
+.hover_radius:hover{
+  background-color: #E8E8E8;
+}
+.option_text{
+  border-radius: 15px;
+  color: #B2B2B2;
+}
+aside{
+  outline: 1px solid brown;
+  display: block;
+}
+.options_search_imput{
+  outline: 1px solid blue;
+  display: inline-block;
+
+}
+main{
+  outline: 1px solid green;
+}

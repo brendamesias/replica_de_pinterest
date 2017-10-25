@@ -107,8 +107,25 @@ aside{
 .options_search_imput{
   outline: 1px solid blue;
   display: inline-block;
-
+  padding: 20px;
+  margin: 4px;
+  margin-bottom: 30px;
+  font-family: 'Bree Serif', serif;
+  color: white;
+  filter: brightness(80%);
+  border-radius: 10px;
+}
+.options_search_imput:hover{
+  filter: brightness(100%);
+  color: black;
 }
 main{
   outline: 1px solid green;
+}
+.container_imgs{
+  display: block;
+}
+.cuadro_de_imagen{
+  display: inline;
+  border-radius: 7px;
 }

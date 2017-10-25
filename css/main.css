@@ -1,9 +1,15 @@
+.bar_principal{
+  display: block;
+  position: absolute;
+}
 header{
   /*outline: 1px solid blue;*/
   display: block;
+
+  position: relative;
 }
 .space_of_searh{
- width: 69%;
+ width: 850px;
  display: inline-block;
  background-color: #E8E8E8;
  border-radius: 5px;
@@ -11,7 +17,8 @@ header{
 .section_space_to_write{
   /*  outline: 1px solid brown;*/
   display: inline-block;
-  width: 86%;
+  width: 80%;
+  position: relative;
 }
 .container_icon_search{
   /*  outline: 1px solid purple;*/
@@ -49,14 +56,17 @@ header{
   margin: 5px;
   vertical-align: middle;
   padding: 10px;
+  position: relative;
 }
 .option_search{
   /*outline: 1px solid red;*/
 }
 .icon_of_pinterest{
+  display: inline-block;
   font-size: 30px;
   color: #c8232c;
   border-radius: 100px;
+  position: relative;
 }
 .icon_options{
   font-size: 23px;
@@ -75,6 +85,7 @@ header{
   height:30px;
   display: inline-block;
   vertical-align: middle;
+  float: none;
 }
 .initiation{
   display: inline-block;
@@ -120,12 +131,22 @@ aside{
   color: black;
 }
 main{
-  outline: 1px solid green;
+  /*outline: 1px solid green;*/
 }
 .container_imgs{
+  padding-top: 200px;
   display: block;
+  overflow: auto;
+  position: static;
+
 }
-.cuadro_de_imagen{
-  display: inline;
-  border-radius: 7px;
+img{
+border-radius: 10px;
+float: left;
+margin: 15px;
+margin-bottom: 20px;
+margin-top: 20px;
+position: relative;
+width: 18%;
+height: 18%;
 }
